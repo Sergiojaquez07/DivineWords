@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="backgroundColor">@color/colorPrimaryLight</item>
+        <item name="textColor">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="disabledBtnColor">@color/disabledButton</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="animalRes">@drawable/animal_icon</item>
+        <item name="professionRes">@drawable/chef</item>
+        <item name="gymRes">@drawable/gym_icon</item>
+        <item name="countryRes">@drawable/globe</item>
+        <item name="actionRes">@drawable/action_icon</item>
+
+        <item name="settingsRes">@drawable/settings</item>
+        <item name="helpRes">@drawable/help</item>
+        <item name="clockRes">@drawable/clock_icon</item>
+        <item name="trophyRes">@drawable/trophy_icon</item>
+        <item name="arrowRes">@drawable/right_arrow_icon</item>
+        <item name="checkRes">@drawable/check_icon</item>
+        <item name="twitterRes">@drawable/twitter_icon</item>
+        <item name="whatsappRes">@drawable/whatsapp_icon</item>
+    </style>
+
+
+
+    <style name="AppTheme.DarkMode" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="backgroundColor">@color/colorPrimaryDark_DarkMode</item>
+        <item name="textColor">@color/colorPrimaryLight</item>
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="disabledBtnColor">@color/disabledButton</item>
+
+
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="animalRes">@drawable/animal_icon_dark</item>
+        <item name="professionRes">@drawable/chef_icon_dark</item>
+        <item name="gymRes">@drawable/gym_icon_dark</item>
+        <item name="countryRes">@drawable/globe_icon_dark</item>
+        <item name="actionRes">@drawable/action_icon_dark</item>
+
+        <item name="settingsRes">@drawable/settings_icon_dark</item>
+        <item name="helpRes">@drawable/help_icon_dark</item>
+        <item name="clockRes">@drawable/clock_icon_dark</item>
+        <item name="trophyRes">@drawable/trophy_icon_dark</item>
+        <item name="arrowRes">@drawable/right_arrow_icon_dark</item>
+        <item name="checkRes">@drawable/check_icon_dark</item>
+        <item name="twitterRes">@drawable/twitter_icon_dark</item>
+        <item name="whatsappRes">@drawable/whatsapp_icon_dark</item>
+    </style>
+
+
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="MyCustomTheme" parent="@android:style/Theme.Panel">
+        <item name="android:windowAnimationStyle">@style/MyAnimation.Window</item>
+    </style>
+
+    <style name="MyAnimation.Window" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+
+</resources>
